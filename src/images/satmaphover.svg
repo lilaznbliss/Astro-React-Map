@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-5" transform="translate(-9.000000, -40.000000)">
+            <g id="Group-4" transform="translate(9.000000, 40.000000)">
+                <g id="Group-2" fill="#3D8ACC">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24" rx="2"></rect>
+                </g>
+                <g id="satellite-astro" transform="translate(4.000000, 4.000000)" fill="#FFFFFF">
+                    <path d="M7.625,15.82375 L7.625,14.538125 C7.77075,14.54775 7.917625,14.552625 8.06575,14.552625 C11.717375,14.552625 14.677625,11.592375 14.677625,7.94075 C14.677625,7.792625 14.67275,7.64575 14.663125,7.5 L15.94875,7.5 C15.9825,7.789125 16,8.083375 16,8.381625 C16,12.52 12.645,15.875 8.506625,15.875 C8.208375,15.875 7.914125,15.8575 7.625,15.82375 Z" id="Path"></path>
+                    <path d="M13.375,7.5 C13.157875,10.57575 10.70075,13.032875 7.625,13.25 L7.625,12.110625 C10.003375,11.75875 11.88375,9.878375 12.235625,7.5 L13.375,7.5 Z M11,7.5 C10.539,9.129875 9.254875,10.414 7.625,10.875 L7.625,9.880375 C8.7068738,9.4402035 9.5652035,8.5818738 10.005375,7.5 L11,7.5 Z M4,6.108375 L6.225,3.875 L8.25,7.2695 L7.20675,8.375 L4,6.108375 Z M1.754,12.5 L0,10.8005 L2.676,8.09775 L4.73475,7.5 L5.125,7.931875 L4.321875,10.135375 L1.754,12.5 Z M10.746,0 L12.5,1.6995 L9.824,4.40225 L7.76525,5 L7.375,4.568125 L8.178125,2.364625 L10.746,0 Z" id="Shape" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

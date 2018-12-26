@@ -1,0 +1,235 @@
+/*============================= MEDIA TAGS ==================================*/
+
+@media (max-width: 400px) {
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.wholePage {
+  height: 100%;
+  /*height: 690px;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu{
+  height: auto;
+  width: 60px;
+  align-items: center;
+}
+#map {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.headersBar {
+  width: calc(100% - 24px);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  background-color: #051722;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.app-window {
+  height: calc(100% - 60px);
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  font: "Open Sans Light", "Arial", "Helvetica", sans-serif;
+  margin: 0;
+  padding-left: 24px;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+img .attribution {
+  width: 24px;
+  height: 24px;
+}
+
+h2 #firstHeading {
+  font: "Open Sans light", "Arial", "Helvetica", sans-serif;
+  font-weight: 300;
+}
+
+}
+
+/*=========================media tag=========================================*/
+@media (min-width: 401px) and (max-width: 549px) {
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.wholePage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu{
+  height: auto;
+  width: 60px;
+  align-items: center;
+}
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.headersBar {
+  width: calc(100% - 24px);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  background-color: #051722;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.app-window {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  font: "Open Sans light", "Arial", "Helvetica", sans-serif;
+  margin: 0;
+  padding-left: 24px;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+img .attribution {
+  width: 24px;
+  height: 24px;
+}
+
+.content{
+  color: blue;
+  background-color: blue;
+}
+
+h2 #firstHeading {
+  font: "Open Sans light", "Arial", "Helvetica", sans-serif;
+  font-weight: 300;
+}
+}
+
+/*=========================media tag=========================================*/
+@media (min-width: 550px) {
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.wholePage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root{
+  width: 100%;
+}
+
+.menu{
+  height: auto;
+  width: 60px;
+  align-items: center;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.headersBar {
+  width: calc(100% - 24px);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  background-color: #051722;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.app-window {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  font: "Open Sans light", "Arial", "Helvetica", sans-serif;
+  margin: 0;
+  padding-left: 24px;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+img .attribution {
+  width: 24px;
+  height: 24px;
+}
+
+.content {
+  color: blue;
+  background-color: blue;
+}
+
+h2 #firstHeading {
+  font: "Open Sans light", "Arial", "Helvetica", sans-serif;
+  font-weight: 300;
+}
+
+}
