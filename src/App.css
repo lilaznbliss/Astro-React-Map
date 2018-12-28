@@ -30,6 +30,11 @@ html, body{
   z-index: 1;
 }
 
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 .headersBar {
   width: calc(100% - 24px);
   height: 80px;
@@ -103,6 +108,11 @@ html, body{
   width: 100%;
 }
 
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 .headersBar {
   width: calc(100% - 24px);
   height: 80px;
@@ -112,10 +122,6 @@ html, body{
   background-color: #051722;
   align-items: center;
   padding-top: 24px;
-}
-
-#root {
-  width: 100%;
 }
 
 .app-window {
@@ -178,10 +184,6 @@ html, body{
   flex-direction: column;
 }
 
-#root{
-  width: 100%;
-}
-
 .menu{
   height: auto;
   width: 60px;
@@ -191,6 +193,11 @@ html, body{
 #map {
   height: 100%;
   width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
 }
 
 .headersBar {
