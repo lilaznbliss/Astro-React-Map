@@ -7,7 +7,6 @@
   height: 100%;
   background-color: #172635;
   background-size: cover;
-  padding-left: 24px;
   display: none;
   z-index: 2;
   position: absolute;
@@ -23,10 +22,10 @@
 input[type=text] {
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 14px;
-    color: #646669;
-    width: 50%;
+    color: #001723;
+    width: 20%;
     height: 40px;
-    background-color: #003655;
+    background-color: #4dacff;
     border: none;
     border-radius: 0 20px 20px 0;
     padding-left: 12px;
@@ -35,7 +34,8 @@ input[type=text] {
     background-size: 24px 24px;
     background-repeat: no-repeat;
     padding: 0 20px 0 40px;
-    margin-right: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -43,16 +43,18 @@ input[type=text] {
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    outline: none;
 }
 
 
 .restaurant-list-info {
   height: calc(100% - 60px);
   color: #D3DBE6;
-  font-size: 20px;
+  font-size: 18px;
   list-style-type: none;
   overflow-y: scroll;
-  padding: 0;
+  padding-left: 16px;
   cursor: pointer;
 }
 
@@ -64,11 +66,13 @@ input[type=text]:focus {
 li {
   padding: 10px 0 10px 24px;
   color: #4dacff;
+  font-size: 14px;
   font-weight: 300;
   background-color: #233244;
   margin-top: 5px;
   margin-bottom: 5px;
-  border-radius: 25px 0 0 25px;
+  margin-right: 12px;
+  border-radius: 25px 25px 25px 25px;
 }
 
 li:hover {
@@ -86,7 +90,19 @@ li .invisible {
   border-color: #3a87cf;
   border-radius: 25px 0 0 25px;
   color: #ffffff;
+  margin-right: 0px;
 }
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #2D6799;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
 }
 
 /*============================= MEDIA TAGS ==================================*/
@@ -111,10 +127,10 @@ li .invisible {
 input[type=text] {
     font-family: "Open Sans light", "Arial", sans-serif;
     font-size: 14px;
-    color: #646669;
-    width: 50%;
+    color: #001723;
+    width: 0.75%;
     height: 40px;
-    background-color: rgb(211, 211, 211, 80%);
+    background-color: #4dacff;
     border: none;
     border-radius: 0 20px 20px 0;
     padding-left: 12px;
@@ -123,7 +139,7 @@ input[type=text] {
     background-size: 24px 24px;
     background-repeat: no-repeat;
     padding: 0 20px 0 40px;
-    margin-right: 12px;
+    margin-right: 16px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -131,13 +147,15 @@ input[type=text] {
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
     width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    outline: none;
 }
 
 
 .restaurant-list-info {
   height: calc(100% - 60px);
   color: #D3DBE6;
-  font-size: 20px;
+  font-size: 14px;
   list-style-type: none;
   overflow-y: scroll;
   padding: 0;
@@ -150,13 +168,14 @@ input[type=text]:focus {
 }
 
 li {
-  padding: 10px 0 10px 24px;
+  padding: 10px 12px 10px 12px;
   background-color: #233244;
   color: #4dacff;
   font-weight: 300;
   margin-top: 5px;
   margin-bottom: 5px;
-  border-radius: 25px 0 0 25px;
+  margin-right: 12px;
+  border-radius: 25px 25px 25px 25px;
 }
 
 li:hover {
@@ -174,7 +193,19 @@ li .invisible {
   border-color: #3a87cf;
   border-radius: 25px 0 0 25px;
   color: #ffffff;
+  margin-right: 0px;
 }
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #2D6799;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
 }
 
 /*============================= MEDIA TAGS ==================================*/
@@ -208,16 +239,16 @@ li .invisible {
     background-color: #646669;
     border: none;
     border-radius: 20px 0 0 20px;
-    color: #D3DBE6;
+    color: #001723;
   }
 
   input[type=text] {
       font-family: "Open Sans light", "Arial", sans-serif;
       font-size: 14px;
-      color: #646669;
-      width: 20%;
+      color: #001723;
+      width: 1%;
       height: 40px;
-      background-color: rgb(211, 211, 211, 80%);
+      background-color: #4dacff;
       border: none;
       border-radius: 0 20px 20px 0;
       padding-left: 12px;
@@ -226,7 +257,7 @@ li .invisible {
       background-size: 24px 24px;
       background-repeat: no-repeat;
       padding: 0 20px 0 40px;
-      margin-right: 12px;
+      margin-right: 16px;
       -webkit-transition: width 0.4s ease-in-out;
       transition: width 0.4s ease-in-out;
   }
@@ -234,13 +265,15 @@ li .invisible {
   /* When the input field gets focus, change its width to 100% */
   input[type=text]:focus {
       width: 100%;
+      border-radius: 20px 20px 20px 20px;
+      outline: none;
   }
 
 
   .restaurant-list-info {
     height: calc(100% - 60px);
     color: #D3DBE6;
-    font-size: 20px;
+    font-size: 14px;
     list-style-type: none;
     overflow-y: scroll;
     padding: 0;
@@ -253,14 +286,15 @@ li .invisible {
   }
 
   li {
-    padding: 10px 0 10px 24px;
+    padding: 10px 16px 10px 16px;
     background-color: #233244;
     color: #4dacff;
-    font-size: 22px;
+    font-size: 14px;
     font-weight: 300;
     margin-top: 8px;
     margin-bottom: 8px;
-    border-radius: 25px 0 0 25px;
+    margin-right: 12px;
+    border-radius: 25px 25px 25px 25px;
   }
 
   li:hover {
@@ -278,5 +312,17 @@ li .invisible {
     border-color: #3a87cf;
     border-radius: 25px 0 0 25px;
     color: #ffffff;
+    margin-right: 0px;
   }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #2D6799;
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+
 }

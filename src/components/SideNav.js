@@ -10,7 +10,7 @@ class SideNav extends Component {
       let restaurantListItem;
 
       if (restaurant.venue.id === this.props.selectedRestaurantId) {
-        restaurantListItem = <li  className="restaurant-item selected" aria-label="restaurant name" key={restaurant.venue.id} onClick={() => {this.openMarker(restaurant)}}> {restaurant.venue.name} </li>;
+        restaurantListItem = <li className="restaurant-item selected" aria-label="restaurant name" key={restaurant.venue.id} onClick={() => {this.openMarker(restaurant)}}> {restaurant.venue.name} </li>;
       } else {
         restaurantListItem = <li className="restaurant-item" aria-label="restaurant name" key={restaurant.venue.id} onClick={() => {this.openMarker(restaurant)}}> {restaurant.venue.name} </li>;
       }

@@ -18,7 +18,8 @@ class App extends Component {
     restaurants: [],
     visibleRestaurants: [],
     selectedRestaurantId: '',
-    markersArray: []
+    markersArray: [],
+    mapType: 'roadmap'
   };
 
   infoWindow;
@@ -257,10 +258,12 @@ class App extends Component {
 
   flatMap = () => {
     this.map.setMapTypeId('roadmap');
+    this.setState({mapType: 'roadmap'});
   }
 
   satMap = () => {
     this.map.setMapTypeId('hybrid');
+    this.setState({mapType: 'hybrid'});
   }
 
   render() {
@@ -288,11 +291,19 @@ class App extends Component {
           <ZoomControl
             zoomIn={this.zoomIn}
             zoomOut={this.zoomOut}
+            mapType={this.state.mapType}
             flatMap={this.flatMap}
             satMap={this.satMap} />
         </div>
       </div>
     );
+  }
+
+  componentDidUpdate() {
+    let selectedRestaurant = document.getElementsByClassName('restaurant-item selected')[0];
+    if (selectedRestaurant) {
+      selectedRestaurant.scrollIntoView({behavior: 'smooth', block: 'center'});
+    }
   }
 }
 

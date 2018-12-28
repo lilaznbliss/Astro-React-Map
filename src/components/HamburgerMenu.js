@@ -27,7 +27,6 @@ class HamburgerMenu extends Component {
     }
 
     let map = document.getElementById("map");
-    console.log(map)
     if (map.style.width === '70%') {
       map.style.width = '100%';
     } else {
