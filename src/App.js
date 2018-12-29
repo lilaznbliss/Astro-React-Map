@@ -302,7 +302,7 @@ class App extends Component {
   componentDidUpdate() {
     let selectedRestaurant = document.getElementsByClassName('restaurant-item selected')[0];
     if (selectedRestaurant) {
-      selectedRestaurant.scrollIntoView({behavior: 'smooth', block: 'center'});
+      selectedRestaurant.scrollIntoView({behavior: 'smooth', block: 'end'});
     }
   }
 }

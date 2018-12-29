@@ -19,6 +19,9 @@ class HamburgerMenu extends Component {
       bars[i].classList.toggle("change");
     };
 
+    let container = document.getElementsByClassName('container');
+    container[0].classList.toggle('adjust');
+
     let sideNav = document.getElementsByClassName("sideNav")[0];
     if (sideNav.style.display === 'none' || sideNav.style.display === '') {
       sideNav.style.display = 'block';
@@ -31,6 +34,11 @@ class HamburgerMenu extends Component {
       map.style.width = '100%';
     } else {
       map.style.width = '70%';
+    }
+
+    let selectedRestaurant = document.getElementsByClassName('restaurant-item selected')[0];
+    if (selectedRestaurant) {
+      selectedRestaurant.scrollIntoView({block: 'end'});
     }
   }
 

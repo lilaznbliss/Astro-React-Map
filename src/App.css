@@ -37,7 +37,7 @@ html, body{
 
 .headersBar {
   width: calc(100% - 24px);
-  height: 80px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   padding-left: 24px;
@@ -115,7 +115,7 @@ html, body{
 
 .headersBar {
   width: calc(100% - 24px);
-  height: 80px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   padding-left: 24px;
@@ -208,7 +208,7 @@ html, body{
   padding-left: 24px;
   background-color: #051722;
   align-items: center;
-  padding-top: 24px;
+  padding-top: 18px;
 }
 
 .app-window {
