@@ -4,7 +4,7 @@ import './ZoomControl.css';
 class ZoomControl extends Component {
   flatMapControl() {
     let flatMapDiv;
-    if (this.props.mapType == 'roadmap') {
+    if (this.props.mapType === 'roadmap') {
       flatMapDiv = <div id="control-flatmap" className="control-flatmap-select" title="flat map" onClick={this.props.flatMap} />
     } else {
       flatMapDiv = <div id="control-flatmap" className="control-flatmap" title="flat map" onClick={this.props.flatMap} />
@@ -14,7 +14,7 @@ class ZoomControl extends Component {
 
   satMapControl() {
     let satMapDiv;
-    if (this.props.mapType == 'hybrid') {
+    if (this.props.mapType === 'hybrid') {
       satMapDiv = <div id="control-satmap" className="control-satmap-select" title="sat map" onClick={this.props.satMap} />
     } else {
       satMapDiv = <div id="control-satmap" className="control-satmap" title="sat map" onClick={this.props.satMap} />
